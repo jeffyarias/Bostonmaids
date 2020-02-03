@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+{
+  "name": "maids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jeffy Arias",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "mongoose": "^5.7.7",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "react-toastify": "^5.5.0",
+    "router": "^1.3.3",
+    "stripe": "^7.14.0"
+  }
+}
+=======
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "axios": "^0.19.0",
+    "http-proxy-middleware": "^0.19.1",
+    "rc-time-picker": "^4.0.0-alpha.2",
+    "react": "^16.8.6",
+    "react-datepicker": "^2.10.1",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-stripe-checkout": "^2.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+>>>>>>> e6ca041f8984e019191b23abc25f401e7a164900
